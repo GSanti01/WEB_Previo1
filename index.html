@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1><center><strong>Web</strong>Developer</center></h1>
+    <center>
+        <div class = "tabla">
+        <table>
+            <br>
+            <h3>Formulario de afiliación</h3>
+            <!------------------------------------------------------------->
+            <tr>
+              <td>
+                <div class="input-with-icon">
+                  <input type="text" id="id_nombre" name="nombre" placeholder="Nombre"> 
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="input-with-icon">
+                  <input type="email" id="id_correo" name="correo" placeholder="Correo"> 
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="input-with-icon">
+                  <input type="tel" id="id_numero" name="numero" placeholder="Número">
+                </div>
+              </td>
+            </tr>
+               <!------------------------------------------------------------->
+            <tr>
+                <td>
+                  <div class="input-with-icon">
+                    <input type="text2.0" id="id_gustos" name="gustos">
+                    <button type="submit" class="button-icon" id="boton1" value="submit">Gustos</button>
+                  </div>
+                </td>
+            </tr>
+                <!------------------------------------------------------------->
+                <!--TABLA DE GUSTOS-->
+            <tr>
+              <th id = "text">
+                  <div class = "tablaInter">
+                       <table id = "tablaGustos">
+                               <th class= "image-header"><img src="green_flag.png" alt="Tu Imagen"></th>
+                               <th>Gustos</th>
+                               <th>%</th>
+                               <th>Editar</th>
+                       </table>
+                  </div>
+              </th>
+          </tr>
+              <!---------------------------------------------------------------------->
+            <tr>
+                <td>
+                  <h4>Pulse "Aceptar" para guardar los cambios, o "Cancelar" para anularlos</h4>
+                  <button type="button" id = "botonA" onclick="validarYRedirigir()">Aceptar
+                  <button type="button" id = "botonB" onclick="redirigirB()">Cancelar
+                </td>
+            </tr>
+                <!---------------------------------------------------------------------->
+            <tr>
+                <td id ="text2">
+                    <h4><a href="https://sites.google.com/view/dweb1-uis/home">Ir a Site de P web</a></h4>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </center>
+
+   </body>
+</html>

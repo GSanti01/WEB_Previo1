@@ -1,0 +1,66 @@
+body {
+    background-color: #A9A9A9;
+  }
+
+.tabla_resultado{
+    border: none;
+    border-collapse: collapse;
+    width: 300px;
+    border-spacing: 0; 
+    margin: 0; 
+   }
+
+   td, th {
+    border: 1px solid black;
+    padding: 0;
+  }
+
+  th{
+    background-color: #7FFFD4;
+    padding: 20px;
+  }
+
+  .header-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px; 
+    height: 40px; 
+}
+
+  #email{
+   background-color: #F0FFFF;
+   width: 300px;
+   padding: 4px;
+
+  }
+
+  #celular{
+    background-color: #F0FFFF;
+    width: 300px;
+    padding: 4px;
+  }
+
+  #preferencias{
+    background-color: #F0FFFF;
+    width: 300px;
+    padding: 4px;
+  }
+
+  #porcentaje{
+    background-color: #F0FFFF;
+    width: 300px;
+    padding: 4px;
+  }
+
+  img{
+    width: 60px; 
+    height: 60x;
+    position:  relative;
+    right: 70px;
+    vertical-align: middle;
+  }
+
+  h2{
+    display: inline;
+  }

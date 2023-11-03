@@ -1,0 +1,181 @@
+ body {
+    background-color: #A9A9A9;
+  }
+
+  .tabla, td{
+    border: 1px solid black;
+    background-color: white;
+    width: 400px;
+    border-spacing: 10px;
+   }
+
+   .tabla2{
+    border: 1px solid black;
+    background-color: white;
+    width: 345px;
+    border-spacing: 10px;
+   }
+
+   .tablaInter{
+    border: 1px solid black;
+
+   }
+
+   th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100px;
+
+   }
+
+   table {
+    border-collapse: separate;
+    border-spacing: 15px; 
+   }
+
+   td{
+    background-color: white;
+    border: none;
+    width: 325px;
+    border-radius: 5px;
+   }
+
+   #text{
+    border: none;
+    width: 325px;
+   }
+
+   #text2{
+    border: none;
+   }
+
+   td, a {
+    text-decoration: none; 
+   }
+
+   #id_nombre{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 325px;
+   }
+
+   #id_correo{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 325px;
+   }
+
+   #id_numero{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 325px;
+   }
+
+   #id_gustos{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    width: 325px;
+   }
+
+   #boton1{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+   }
+
+   .input-with-icon {
+    position: relative;
+    width: 200px; 
+    border-radius: 4px;
+    margin-right: 5px; 
+  }
+
+  .input-with-icon input {
+    padding-right: 25px; 
+  }
+
+  
+  .input-with-icon input[type="text"] {
+    background: url('icono-persona.png') no-repeat right center; 
+    background-size: 20px 20px; 
+  }
+  
+  .input-with-icon input[type="email"] {
+    background: url('icono_correo.png') no-repeat right center; 
+    background-size: 20px 20px; 
+  }
+  
+  .input-with-icon input[type="tel"] {
+    background: url('icono_telefono.png') no-repeat right center; 
+    background-size: 20px 20px; 
+  }
+
+  .image-header {
+    background-color: green;
+    text-align: center; 
+    border-radius: 10px; 
+  }
+  
+  .image-header img {
+    width: 100%; 
+    border-radius: 10px; 
+  }
+
+  .input-with-icon {
+    position: relative;
+    width: 350px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px; 
+    display: flex;
+  }
+  
+  .input-with-icon input {
+    flex: 1;
+    padding-right: 35px; 
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .input-with-icon .button-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 5px 10px; 
+    background-color: #ccc;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .input-with-icon .button-icon:hover {
+    background-color: #ddd;
+  }
+
+  #botonA{
+    background-color: white;
+    padding: 5px;
+
+  }
+
+  #botonB{
+    background-color: white;
+    padding: 5px;
+
+  }
+
+  
+  
+
+
+  
+  
+  
+  
+  

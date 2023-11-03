@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<table style="width:100%">
+    <title>Resultado</title>
+    <link rel = "stylesheet" href = "styless2.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1><center><strong>Resultado</strong></center></h1>
+    <center>
+    <div class = "tabla_resultado">
+    <table>
+        <tr>
+          <th>
+            <img src="carita.png">
+            <strong><h2>Ficha</h2></strong>
+         </th>
+        <tr>
+          <td id = "email"><h3>Email:</h3></td>
+        </tr>
+        <tr>
+            <td id = "celular"><h3>Telefono:</h3></td>
+        </tr>
+        <tr>
+            <td id = "preferencias"><h3>Gusto:</h3></td>
+        </tr>
+        <tr>
+            <td id = "porcentaje"><h3>Porcentaje:</h3></td>
+        </tr>
+      </table>
+    </div>
+</center>
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        // Obtiene los parámetros de la URL
+        const urlParams = new URLSearchParams(window.location.search);
+        
+        // Obtén los valores de los parámetros
+        const nombre = urlParams.get('nombre');
+        const correo = urlParams.get('correo');
+        const numero = urlParams.get('numero');
+        const gustos = urlParams.get('gustos');
+
+        // Muestra los valores en los campos correspondientes
+        document.getElementById("id_nombre").textContent = nombre;
+        document.getElementById("email").textContent = `Email: ${correo}`;
+        document.getElementById("celular").textContent = `Telefono: ${numero}`;
+        document.getElementById("preferencias").textContent = `Gusto: ${gustos}`;
+    });
+</script>
+</body>
+</html>
